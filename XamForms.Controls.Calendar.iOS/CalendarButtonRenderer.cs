@@ -134,8 +134,10 @@ namespace XamForms.Controls.iOS
 	{
 		public static void Init()
 		{
-			var d = "";
-		}
+#pragma warning disable CS0219 // Variable is assigned but its value is never used
+            var d = "";
+#pragma warning restore CS0219 // Variable is assigned but its value is never used
+        }
 	}
 }
 
